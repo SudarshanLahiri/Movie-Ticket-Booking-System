@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="register_look.css">
+</head>
+<body>
+    
+    <div class="container col-10 row-8 mx-auto">
+     <form>
+        <h1 class="heading">Register</h1>
+        <label for ="fnamme"> FIRST NAME: </label>
+        <input type ="text" name ="fname" id="fname" required placeholder="enter your first name">
+        <br/><br/>
+        <label for="lastname" >LAST NAME: </label>
+        <input type ="text" name ="lastname" id="lastname" required placeholder="enter your last name">
+        <br/><br/>
+        <fieldset>
+            <legend>GENDER</legend>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="gender" required>
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="gender" required>
+        </fieldset>
+        <br/><br/>
+        <lable for="email">EMAIL: </lable>
+        <input type ="email" name="email" id="email" required placeholder="enter your email">
+        <br/><br/>
+        <label for="Password">Password: </label>
+        <input type="number" name="number" id="number" required placeholder="1234XXXXXX">
+        <br/><br/>
+        <DATE-OF-BIRTH>DOB: </DATE-OF-BIRTH>
+        <input type="date" name="date" id="date" required placeholder="dd-mm-yy">
+        <br/><br/>
+        <label for="address">Address: </label>
+        <textarea name="address" id="address" cols="40" rows="2"></textarea>
+        <br/><br/>
+        <label for="file-select">select-file</label>
+        <input type="file" name="upload" id="select-file" >
+        <br/><br/>
+        <input type="submit" value="register">
+        <input type="reset" value="reset">
+     </form>
+    </div>
+     <a href="Login.html">
+        <button> Login>
+    </a>
+</body>
+</html>
